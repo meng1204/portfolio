@@ -1,8 +1,19 @@
-{
+{ 
+    "home" : {
+      "about": {
+        "title": "Nico Chen作品集",
+        "subtitle": "全栈程序员 Full Stack Developer"
+      }
+    },
+
     "navMenu": {
       "work": "工作经验",
       "about": "简介",
       "contact": "联系"
+    },
+
+    "header" : {
+      "connect_email": "联系我"
     },
 
     "personalInfo": {

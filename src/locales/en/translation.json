@@ -1,8 +1,19 @@
 {
+    "home" : {
+      "about": {
+        "title": "Nico Chen's Portfolio",
+        "subtitle": "Full Stack Developer"
+      }
+    },
+
     "navMenu": {
       "work": "Work",
       "about": "About",
       "contact": "Contact"
+    },
+
+    "header" : {
+      "connect_email": "CONNECT WITH ME"
     },
 
     "personalInfo": {
