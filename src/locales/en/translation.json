@@ -3,5 +3,9 @@
       "work": "Work",
       "about": "About",
       "contact": "Contact"
+    },
+
+    "personalInfo": {
+      "tag1" : "测试哈哈哈fff"
     }
   }
