@@ -10,9 +10,16 @@ import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
-const IndexPage = () => (
+import '../i18n';
+import { useTranslation } from 'react-i18next';
+
+const IndexPage = () => {
+  
+  const { t, i18n } = useTranslation();
+  
+  return (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title="Nico Chen's Portfolio" />
     <Header></Header>
     <Work></Work>
     <About></About>
@@ -20,6 +27,6 @@ const IndexPage = () => (
     <Promotion></Promotion>
     <Footer></Footer>
   </Layout>
-)
+)}
 
 export default IndexPage
