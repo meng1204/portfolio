@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import data from "../personal-data"
+
 
 const Header = () => {
   return (
@@ -42,7 +43,7 @@ const Header = () => {
           <Fade bottom>
             <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "meng8859@gmail.com"
               }`}
               className="primary-btn"
             >
