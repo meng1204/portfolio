@@ -21,11 +21,11 @@ const IndexPage = () => {
   <Layout>
     <SEO title={t('home.about.title')} />
     <Header></Header>
-    {/* <Work></Work>
+    <Work></Work>
     <About></About>
     <Skills></Skills>
     <Promotion></Promotion>
-    <Footer></Footer> */}
+    <Footer></Footer> 
   </Layout>
 )}
 
