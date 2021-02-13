@@ -1,7 +1,8 @@
 import React from "react"
-import data from "../personal-data"
+import personalData from "../personal-data"
 
 const Skills = () => {
+  const data = personalData()
   return (
     <div className="section">
       <div className="container">

@@ -1,11 +1,13 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../personal-data"
+import personalData from "../personal-data"
 import { useTranslation } from 'react-i18next';
 
 
 const Header = () => {
   const { t } = useTranslation()
+
+  const data = personalData()
 
   return (
     <div className="section" id="home">

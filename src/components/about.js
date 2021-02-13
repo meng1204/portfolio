@@ -1,8 +1,9 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../personal-data"
+import personalData from "../personal-data"
 
 const About = () => {
+  const data = personalData()
   return (
     <div className="secion" id="about">
       <div className="container">

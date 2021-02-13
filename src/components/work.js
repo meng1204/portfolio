@@ -2,9 +2,10 @@ import React from "react"
 import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
 
-import data from "../personal-data"
+import personalData from "../personal-data"
 
 const Work = () => {
+  const data = personalData()
   return (
     <div className="section" id="work">
       <div className="container">

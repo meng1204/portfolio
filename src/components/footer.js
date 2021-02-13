@@ -1,8 +1,9 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../personal-data"
+import personalData from "../personal-data"
 
 const Footer = () => {
+  const data = personalData()
   return (
     <div className="section" id="contact">
       <div className="container">
