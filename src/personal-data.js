@@ -1,10 +1,10 @@
 // Skills Icons
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import jsIcon from "./images/js.svg"
+import vuejsIcon from "./images/vuejs.svg"
+import phpIcon from "./images/php.svg"
+import golangIcon from "./images/golang.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -26,9 +26,9 @@ const personalData = () => {
       //Line 1 For Header
       i18n.t("personalInfo.headerTagline.tag_1"),
       //Line 2 For Header
-      "products, brands,",
+      i18n.t("personalInfo.headerTagline.tag_2"),
       //Line 3 For Header
-      "and experience",
+      i18n.t("personalInfo.headerTagline.tag_3"),
     ],
     //   Header Paragraph
     headerParagraph:
@@ -43,9 +43,8 @@ const personalData = () => {
     projects: [
       {
         id: 1, //DO NOT CHANGE THIS (Please)😅
-        title: "Project One", //Project Title - Add Your Project Title Here
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        title: i18n.t("personalInfo.project.title_1"), //Project Title - Add Your Project Title Here
+        para: i18n.t("personalInfo.project.para_1"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
         imageSrc:
           "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
@@ -54,9 +53,8 @@ const personalData = () => {
       },
       {
         id: 2, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Two", //Project Title - Add Your Project Title Here
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        title: i18n.t("personalInfo.project.title_2"), //Project Title - Add Your Project Title Here
+        para: i18n.t("personalInfo.project.para_2"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
         imageSrc:
           "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
@@ -65,9 +63,8 @@ const personalData = () => {
       },
       {
         id: 3, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Three", //Project Title - Add Your Project Title Here
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        title: i18n.t("personalInfo.project.title_3"), //Project Title - Add Your Project Title Here
+        para: i18n.t("personalInfo.project.para_3"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
         imageSrc:
           "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
@@ -76,9 +73,8 @@ const personalData = () => {
       },
       {
         id: 4, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Four", //Project Title - Add Your Project Title Here
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        title: i18n.t("personalInfo.project.title_4"), //Project Title - Add Your Project Title Here
+        para: i18n.t("personalInfo.project.para_4"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
         imageSrc:
           "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
@@ -87,9 +83,8 @@ const personalData = () => {
       },
       {
         id: 5, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Five", //Project Title - Add Your Project Title Here
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        title: i18n.t("personalInfo.project.title_5"), //Project Title - Add Your Project Title Here
+        para: i18n.t("personalInfo.project.para_5"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
         imageSrc:
           "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
@@ -98,9 +93,8 @@ const personalData = () => {
       },
       {
         id: 6, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Six", //Project Title - Add Your Project Title Here
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        title: i18n.t("personalInfo.project.title_6"), //Project Title - Add Your Project Title Here
+        para: i18n.t("personalInfo.project.para_6"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
         imageSrc:
           "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
@@ -141,37 +135,37 @@ const personalData = () => {
     skills: [
       {
         id: 1,
-        img: htmlIcon,
+        img: phpIcon,
         para:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       },
       {
         id: 2,
-        img: cssIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-      },
-      {
-        id: 3,
         img: jsIcon,
         para:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       },
       {
+        id: 3,
+        img: golangIcon,
+        para:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      },
+      {
         id: 4,
-        img: reactIcon,
+        img: vuejsIcon,
         para:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       },
       {
         id: 5,
-        img: designIcon,
+        img: htmlIcon,
         para:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       },
       {
         id: 6,
-        img: codeIcon,
+        img: cssIcon,
         para:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       },
