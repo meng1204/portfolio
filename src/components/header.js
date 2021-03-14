@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              {t('home.header.intro')} {data.name}{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
@@ -52,7 +52,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              {t('header.connect_email')}
+              {t('home.header.connect_email')}
             </a>
           </Fade>
         </div>

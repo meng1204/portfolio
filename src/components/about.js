@@ -1,8 +1,11 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import personalData from "../personal-data"
+import { useTranslation } from 'react-i18next';
+
 
 const About = () => {
+  const { t } = useTranslation()
   const data = personalData()
   return (
     <div className="secion" id="about">
@@ -10,7 +13,7 @@ const About = () => {
         <div className="about-section">
           <div className="content">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1>{t('home.about_me.name')}</h1>
             </Fade>
             <p>
               {data.aboutParaOne}

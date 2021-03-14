@@ -3,6 +3,19 @@
       "about": {
         "title": "Nico Chen's Portfolio",
         "subtitle": "Full Stack Developer"
+      },
+      "header" : {
+        "intro": "Hi, I'm ",
+        "connect_email": "CONNECT WITH ME"
+      },
+      "work" : {
+        "name": "Projects"
+      },
+      "skill" : {
+        "name": "Skills"
+      },
+      "about_me" : {
+        "name": "About Me"
       }
     },
 
@@ -12,11 +25,33 @@
       "contact": "Contact"
     },
 
-    "header" : {
-      "connect_email": "CONNECT WITH ME"
-    },
+    
 
     "personalInfo": {
-      "tag1" : "测试哈哈哈fff"
+      "headerTagline" : {
+        "tag_1" : "Full Stack",
+        "tag_2" : "Web Developer",
+        "tag_3" : "Innovation is my passion"
+      },
+      "project" : {
+        "title_1" : "陆牛商城 APP",
+        "para_1": "陆牛商城是一个温哥华本地生活购物商城. 独立完成此项目的后端搭建以及研发, 运用Restful API形式进行前后端分离. 主要开发语言 PHP + Lumen + Mysql",
+  
+        "title_2" : "陆牛配送系统 (后台 + APP)",
+        "para_2": "配送系统主要用于司机配送订单用于追踪位置, 有利于客户及时知晓动态. 主要完成后端搭建, 主要开发语言 NodeJs + Express + GraphQL + Mysql",
+  
+        "title_3" : "一品出行",
+        "para_3": "一品出行网约车是温哥华本地网约车平台, 采用最新的多线程GoLang语言编写，配有乘客端、司机App、后台管理多端口，系统同时负载300-400名司机实时在线，持续更新地理位置等。后端开发语言 Golang + Gin + GraphQL + PostgreSQL. 前端开发语言 Vue.js + Apollo + GraphQL",
+  
+        "title_4" : "食刻美食 Shikr Delivery",
+        "para_4": "食刻美食是专属餐厅的外卖平台. 主要进行后端以及配送端的研发. 开发语言 PHP + CakePhp",
+  
+        "title_5" : "PHP Composer 安装包: AlphaPay支付接入",
+        "para_5": "Integrate Wechat Pay and Alipay through Alpha Pay Payment Gateway APIs. Allow Canadian merchants to easily accept Wechat Pay and Alipay for their E-commerce Platform. ",
+  
+        "title_6" : "陆牛商城 APP",
+        "para_6": "鲁尼"
+  
+      }
     }
-  }
+}
