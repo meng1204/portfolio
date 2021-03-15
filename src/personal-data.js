@@ -1,15 +1,22 @@
 // Skills Icons
-import phpIcon from "./images/php.svg"
-import golangIcon from "./images/golang.svg"
-import jsIcon from "./images/js.svg"
-// import vuejsIcon from "./images/vuejs.svg"
-import mysqlIcon from "./images/mysql.svg"
-import graphqlIcon from "./images/graphql.svg"
-import restapiIcon from "./images/restapi.svg"
+import phpIcon from "./images/skills/php.svg"
+import golangIcon from "./images/skills/golang.svg"
+import jsIcon from "./images/skills/js.svg"
+// import vuejsIcon from "./images/skills/vuejs.svg"
+import mysqlIcon from "./images/skills/mysql.svg"
+import graphqlIcon from "./images/skills/graphql.svg"
+import restapiIcon from "./images/skills/restapi.svg"
 
 // Social Icon
-import githubIcon from "./images/github.svg"
-import linkedinIcon from "./images/linkedin.svg"
+import githubIcon from "./images/contact/github.svg"
+import linkedinIcon from "./images/contact/linkedin.svg"
+
+// Project Images
+import composerImg from "./images/projects/alphapay-php-composer.png"
+import luniumallImg from "./images/projects/luniumall-shop.png"
+
+// About
+import meImg from "./images/about/me.png"
 
 import i18n from './i18n';
 
@@ -45,10 +52,9 @@ const personalData = () => {
         title: i18n.t("personalInfo.project.title_1"), //Project Title - Add Your Project Title Here
         para: i18n.t("personalInfo.project.para_1"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
-        imageSrc:
-          "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        imageSrc: luniumallImg,
         //Project URL - Add Your Project Url Here
-        url: "",
+        url: "https://luniumall.com/app",
       },
       {
         id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -85,8 +91,7 @@ const personalData = () => {
         title: i18n.t("personalInfo.project.title_5"), //Project Title - Add Your Project Title Here
         para: i18n.t("personalInfo.project.para_5"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
-        imageSrc:
-          "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        imageSrc: composerImg,
         //Project URL - Add Your Project Url Here
         url: "https://github.com/meng1204/canada-wechat-alipay",
       },
@@ -123,7 +128,7 @@ const personalData = () => {
     aboutParaThree:
       "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     aboutImage:
-      "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      meImg,
   
     //   End About Section ---------------------
   

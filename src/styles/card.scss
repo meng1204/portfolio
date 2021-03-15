@@ -16,14 +16,15 @@
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
+    background-color: #eeeeee;
     cursor: pointer;
     h1 {
       font-size: 14px;
-      color: white;
+      color: black;
     }
     p {
       font-size: 10px;
-      color: white;
+      color: black;
       margin-bottom: 20px;
     }
 
@@ -32,6 +33,7 @@
       color: white;
       padding: 10px;
       text-decoration: none;
+      margin-bottom: 10px
     }
     &:hover {
       opacity: 1;
