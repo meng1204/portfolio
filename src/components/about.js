@@ -16,13 +16,13 @@ const About = () => {
               <h1>{t('home.about_me.name')}</h1>
             </Fade>
             <p>
-              {data.aboutParaOne}
+              {t('personalInfo.about.aboutParaOne')}
               <br></br>
               <br></br>
-              {data.aboutParaTwo}
+              {t('personalInfo.about.aboutParaTwo')}
               <br></br>
               <br></br>
-              {data.aboutParaThree}
+              {t('personalInfo.about.aboutParaThree')}
             </p>
           </div>
           <div className="image-wrapper">
