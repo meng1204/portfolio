@@ -2,16 +2,14 @@
 import phpIcon from "./images/php.svg"
 import golangIcon from "./images/golang.svg"
 import jsIcon from "./images/js.svg"
-import vuejsIcon from "./images/vuejs.svg"
+// import vuejsIcon from "./images/vuejs.svg"
 import mysqlIcon from "./images/mysql.svg"
 import graphqlIcon from "./images/graphql.svg"
 import restapiIcon from "./images/restapi.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
 
 import i18n from './i18n';
 
@@ -177,22 +175,14 @@ const personalData = () => {
   
     //   Contact Section --------------
   
-    contactSubHeading: "Let's create your next experience together",
+    contactSubHeading: "",
     social: [
       // Add Or Remove The Link Accordingly
-      { img: githubIcon, url: "https://github.com/chetanverma16" },
+      { img: githubIcon, url: "https://github.com/meng1204" },
       {
-        img: codepenIcon,
-        url: "https://www.codepen.com/",
-      },
-      {
-        img: dribbbleIcon,
-        url: "https://dribbble.com/chetanverma",
-      },
-      {
-        img: instagramIcon,
-        url: "https://www.instagram.com/",
-      },
+        img: linkedinIcon,
+        url: "https://www.linkedin.com/in/nico-chen/",
+      }
     ],
     // End Contact Section ---------------
   }

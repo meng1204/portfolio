@@ -1,6 +1,9 @@
 import React from "react"
+import { useTranslation } from 'react-i18next';
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+  const { t } = useTranslation()
+
   return (
     <div
       className="card"
@@ -20,7 +23,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           rel="noopener noreferrer"
           className="btn"
         >
-          Explore
+          {t('home.work.explore_button')}
         </a>
       </div>
     </div>

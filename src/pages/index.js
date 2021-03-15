@@ -7,7 +7,7 @@ import Header from "../components/header"
 import Work from "../components/work"
 import About from "../components/about"
 import Skills from "../components/skills"
-import Promotion from "../components/promotion"
+// import Promotion from "../components/promotion"
 import Footer from "../components/footer"
 
 import '../i18n';
@@ -24,7 +24,7 @@ const IndexPage = () => {
     <Work></Work>
     <About></About>
     <Skills></Skills>
-    <Promotion></Promotion>
+    {/* <Promotion></Promotion> */}
     <Footer></Footer> 
   </Layout>
 )}
