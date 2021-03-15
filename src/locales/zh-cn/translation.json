@@ -48,8 +48,8 @@
       "title_4" : "食刻美食 Shikr Delivery",
       "para_4": "食刻美食是专属餐厅的外卖平台. 主要进行后端以及配送端的研发. 开发语言 PHP + CakePhp",
 
-      "title_5" : "PHP Composer 安装包: AlphaPay支付接入",
-      "para_5": "Integrate Wechat Pay and Alipay through Alpha Pay Payment Gateway APIs. Allow Canadian merchants to easily accept Wechat Pay and Alipay for their E-commerce Platform. 用于快速接入微信支付/支付宝支付 (通过AlphaPay支付端口)开发语言 PHP",
+      "title_5" : "PHP Composer Packagist 安装包: AlphaPay支付接入",
+      "para_5": "PHP Composer是类似于JS里的NPM的安装包管理工具, 这个安装包用于快速接入微信支付/支付宝支付 (通过AlphaPay支付端口)",
 
       "title_6" : "微信小程序 - 网上商城",
       "para_6": "现有的Sass商城系统接入海外的微信支付, 实现小程序内的信用卡支付. 开发新功能到现有程序中. "
