@@ -1,10 +1,11 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import jsIcon from "./images/js.svg"
-import vuejsIcon from "./images/vuejs.svg"
 import phpIcon from "./images/php.svg"
 import golangIcon from "./images/golang.svg"
+import jsIcon from "./images/js.svg"
+import vuejsIcon from "./images/vuejs.svg"
+import mysqlIcon from "./images/mysql.svg"
+import graphqlIcon from "./images/graphql.svg"
+import restapiIcon from "./images/restapi.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -136,39 +137,33 @@ const personalData = () => {
       {
         id: 1,
         img: phpIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        para: i18n.t("personalInfo.skill.para_1"),
       },
       {
         id: 2,
         img: jsIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        para: i18n.t("personalInfo.skill.para_2"),
       },
       {
         id: 3,
         img: golangIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        para: i18n.t("personalInfo.skill.para_3"),
       },
       {
         id: 4,
-        img: vuejsIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        img: mysqlIcon,
+        para: i18n.t("personalInfo.skill.para_4"),
       },
       {
         id: 5,
-        img: htmlIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        img: graphqlIcon,
+        para: i18n.t("personalInfo.skill.para_5"),
       },
       {
         id: 6,
-        img: cssIcon,
-        para:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-      },
+        img: restapiIcon,
+        para: i18n.t("personalInfo.skill.para_6"),
+      }
     ],
   
     // End Skills Section --------------------------
