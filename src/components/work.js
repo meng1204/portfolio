@@ -1,5 +1,5 @@
 import React from "react"
-import Card from "./atoms/Card"
+import Card from "./atoms/card"
 import Fade from "react-reveal/Fade"
 import { useTranslation } from 'react-i18next';
 
