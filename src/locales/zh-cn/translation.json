@@ -57,7 +57,13 @@
       "aboutParaThree" : "我的日常爱好是钓鱼/滑雪/打羽毛球等, 这些运动给我带来愉悦感，缓解紧张情绪，减轻工作产生的压力"
     },
     "skill" : {
-      "para_1" : "PHP是一个后端语言, 能够熟练使用MVC框架(Lumen/Laravel/Yii2)开发 RestFul API 端口. "
+      "para_1" : "PHP是一个后端语言, 能够熟练使用MVC框架(Lumen/Laravel/Yii2)开发 RestFul API 端口. ",
+      "para_2" : "JS可用于写前后端, 一般用NodeJS开发后端, 能够熟练Express框架以及Sequelize ORM处理数据库连接.",
+      "para_3" : "Golang是一种后端语言, 使用过框架Gin实现运行逻辑. ",
+      "para_4" : "MySQL是一个关系型数据库管理系统, 熟练使用SQL语句获得想要的数据. 了解PK和FK",
+      "para_5" : "GraphQL是API的查询语言, 前后端分离时可使用的方法去获取数据. 对API中的数据提供了一套易于理解的完整描述，使得客户端能够准确地获得它需要的数据，减少数据的冗余",
+      "para_6" : "前后端分离时需要用到的交互, 合理规划URL样式以及返回结果, 管理好API版本更新. "
+
     }
   }
 
