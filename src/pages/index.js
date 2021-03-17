@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from 'react-helmet';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -19,6 +20,21 @@ const IndexPage = () => {
   
   return (
   <Layout>
+     <Helmet>
+      <script>
+          {`
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3YV7CD32W"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-E3YV7CD32W');
+          </script>`
+        }
+      </script>
+    </Helmet>
     <SEO title={t('home.about.title')} />
     <Header></Header>
     <Work></Work>
