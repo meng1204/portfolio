@@ -14,6 +14,9 @@ import linkedinIcon from "./images/contact/linkedin.svg"
 // Project Images
 import composerImg from "./images/projects/alphapay-php-composer.png"
 import luniumallImg from "./images/projects/luniumall-shop.png"
+import luniumallDriverImg from "./images/projects/luniumall-driver.png"
+import yipinchuxingImg from "./images/projects/yipinchuxing.png"
+import miniprogram from "./images/projects/miniprogram.png"
 
 // About
 import meImg from "./images/about/me.png"
@@ -61,8 +64,7 @@ const personalData = () => {
         title: i18n.t("personalInfo.project.title_2"), //Project Title - Add Your Project Title Here
         para: i18n.t("personalInfo.project.para_2"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
-        imageSrc:
-          "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        imageSrc: luniumallDriverImg,
         //Project URL - Add Your Project Url Here
         url: "http://driver.luniumall.com/",
       },
@@ -71,8 +73,7 @@ const personalData = () => {
         title: i18n.t("personalInfo.project.title_3"), //Project Title - Add Your Project Title Here
         para: i18n.t("personalInfo.project.para_3"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
-        imageSrc:
-          "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        imageSrc: yipinchuxingImg,
         //Project URL - Add Your Project Url Here
         url: "https://yipinchuxing.com/",
       },
@@ -100,8 +101,7 @@ const personalData = () => {
         title: i18n.t("personalInfo.project.title_6"), //Project Title - Add Your Project Title Here
         para: i18n.t("personalInfo.project.para_6"), // Add Your Service Type Here
         //Project Image - Add Your Project Image Here
-        imageSrc:
-          "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        imageSrc: miniprogram,
         //Project URL - Add Your Project Url Here
         url: "",
       },
